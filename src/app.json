@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Akhil Jadli",
+      "description": "B.Tech CSE Student",
+      "image": "./images/profile.jpg",
+      "following": "20",
+      "followers": "3.5M",
+      "views": "9.6M",
+      "socialLinks": {
+        "instagram": "https://www.instagram.com/yourusername",
+        "facebook": "https://www.facebook.com/yourusername",
+        "youtube": "https://www.youtube.com/channel/yourchannel",
+        "twitter": "https://twitter.com/yourusername"
+      }
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "description": "Software Engineer",
+      "image": "./images/profile2.jpg",
+      "following": "100",
+      "followers": "1.2M",
+      "views": "500K",
+      "socialLinks": {
+        "instagram": "https://www.instagram.com/johndoe",
+        "facebook": "https://www.facebook.com/johndoe",
+        "youtube": "https://www.youtube.com/channel/johndoe",
+        "twitter": "https://twitter.com/johndoe"
+      }
+    }
+  ]
+  

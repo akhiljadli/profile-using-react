@@ -1,0 +1,176 @@
+/* Reset body and set background gradient */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  color: white;
+}
+
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Styling for the header */
+header {
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 20vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Overlay with smoky transparent effect */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Profile container styling */
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Left section: profile image and details */
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin: -0.5rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.icon1 {
+  font-size: 20px;
+  margin: 0 15px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.3s ease-in-out;
+}
+
+.icon1:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Social stats */
+.social-stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+  gap: 15px;
+}
+
+.social-stats-content {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 8px 12px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+}
+
+/* Right section: Bio */
+.profile-right {
+  flex: 1;
+  padding-left: 40px;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Styling for the "Recent Posts" section */
+.recent-posts-section {
+  background-color: #f0f0f0; 
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.recent-posts-section h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Post card container */
+.posts {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  align-items: center; 
+}
+
+/* Individual post card */
+.post-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  overflow: hidden; 
+  width: 80%;
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+
+/* Image styles */
+.post-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-bottom: 0px;
+}
+
+.post-card p {
+  color: #555;
+  font-size: 0.9rem;
+}
